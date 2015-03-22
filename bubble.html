@@ -24,7 +24,17 @@ h1, h2 {
 var foo = null; // object
 
 function doMove() {
-  foo.style.left = parseInt(foo.style.left)+1+'px';
+  int direction = Math.random() * 4;
+  if (direction = 0) {
+     foo.style.left = parseInt(foo.style.left)-1+'px';
+  } else if (direction = 1) {
+     foo.style.left = parseInt(foo.style.left)+1+'px';
+  } else if (direction = 2) {
+     foo.style.top = parseInt(foo.style.left)+1+'px';
+  } else {
+     foo.style.top = parseInt(foo.style.left)-1+'px';
+  }
+  
   setTimeout(doMove,20); // call doMove in 20msec
 }
 
@@ -41,9 +51,6 @@ window.onload = init;
 </head>
 
 <body>
-
-<h1>Javascript animation: Demo 1</h1>
-<h2>Recursive setTimeout-based animation</h2>
 
 <div id="fooObject">
  <img src="http://i62.tinypic.com/dfgbx4.png" width = "90" height = "90">
