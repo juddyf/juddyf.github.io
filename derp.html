@@ -42,22 +42,33 @@ function doMove() {
 function moveLeft() {
    foo.style.left = parseInt(foo.style.left)+1+'px';
    
-
+   if (parseInt(foo.style.left) > 0) {
     setTimeout(moveLeft,20);
+   } else {
+     doMove();
+   }
 
 }
 
 function moveRight() {
    foo.style.left = parseInt(foo.style.left)-1+'px';
    
+    if (parseInt(foo.style.right) > 0) {
     setTimeout(moveRight,20);
+   } else {
+     doMove();
+   }
 }
 
 function moveUp() {
    foo.style.top = parseInt(foo.style.top)-1+'px';
    
 
-    setTimeout(moveRight,20);
+    if (parseInt(foo.style.top) > 0) {
+    setTimeout(moveUp,20);
+   } else {
+     doMove();
+   }
 
 
 }
@@ -66,7 +77,11 @@ function moveDown() {
   foo.style.top = parseInt(foo.style.top)+1+'px';
   
 
-    setTimeout(moveRight,20);
+  if (parseInt(foo.style.bottom) > 0) {
+    setTimeout(moveDown,20);
+   } else {
+     doMove();
+   }
 
 }
 
