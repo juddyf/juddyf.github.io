@@ -49,18 +49,22 @@ function doMove() {
 
 function moveLeft() {
    foo.style.left = parseInt(foo.style.left)+1+'px';
+   setTimeout(moveLeft,20);
 }
 
 function moveRight() {
    foo.style.left = parseInt(foo.style.left)-1+'px';
+   setTimeout(moveRight,20);
 }
 
 function moveUp() {
    foo.style.top = parseInt(foo.style.top)-1+'px';
+   setTimeout(moveUp,20);
 }
 
 function moveDown() {
   foo.style.top = parseInt(foo.style.top)+1+'px';
+  setTimeout(moveDown,20);
 }
 
 function init() {
