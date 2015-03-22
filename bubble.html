@@ -25,13 +25,13 @@ var foo = null; // object
 function doMove() {
   var direction = Math.floor(Math.random() * 4);
  
-  if (direction == 0 && parseInt(foo.style.left) > 0) {
+  if (direction == 0) {
        moveLeft();
-  } else if (direction == 1 && parseInt(foo.style.bottom) > 0) {
+  } else if (direction == 1) {
        moveDown();
-  } else if (direction == 2 && parseInt(foo.style.top) > 0) {
+  } else if (direction == 2) {
        moveUp();
-  } else if (direction == 3 && parseInt(foo.style.right) > 0) {
+  } else if (direction == 3) {
        moveRight();
   } else {
        setTimeout(doMove, 20);
