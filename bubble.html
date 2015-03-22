@@ -42,41 +42,32 @@ function doMove() {
 function moveLeft() {
    foo.style.left = parseInt(foo.style.left)+1+'px';
    
-   if (parseInt(foo.style.left) > 0) {
+
     setTimeout(moveLeft,20);
-   }
-   
-   doMove();
+
 }
 
 function moveRight() {
    foo.style.left = parseInt(foo.style.left)-1+'px';
    
-   if (parseInt(foo.style.right) > 0) {
     setTimeout(moveRight,20);
-   }
-   
-   doMove();
 }
 
 function moveUp() {
    foo.style.top = parseInt(foo.style.top)-1+'px';
    
-   if (parseInt(foo.style.top) > 0) {
+
     setTimeout(moveRight,20);
-   }
-   
-   doMove();
+
+
 }
 
 function moveDown() {
   foo.style.top = parseInt(foo.style.top)+1+'px';
   
-  if (parseInt(foo.style.bottom) > 0) {
+
     setTimeout(moveRight,20);
-   }
-   
-   doMove();
+
 }
 
 function init() {
