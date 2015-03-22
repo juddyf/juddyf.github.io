@@ -26,16 +26,41 @@ function doMove() {
   var direction = Math.floor(Math.random() * 4);
  
   if (direction == 0) {
-     foo.style.left = parseInt(foo.style.left)+1+'px';
+     for (int i = 1; i < 20; i++) {
+       moveLeft();
+     }
   } else if (direction == 1) {
-     foo.style.top = parseInt(foo.style.top)+1+'px';
+     for (int i = 1; i < 20; i++) {
+       moveDown();
+     }
   } else if (direction == 2) {
-     foo.style.top = parseInt(foo.style.top)-1+'px';
+     for (int i = 1; i < 20; i++) {
+       moveUp();
+     }
   } else {
-     foo.style.left = parseInt(foo.style.left)-1+'px';
+     for (int i = 1; i < 20; i++) {
+       moveRight();
+     }
   }
   
   setTimeout(doMove,20); // call doMove in 20msec
+}
+
+
+function moveLeft() {
+   foo.style.left = parseInt(foo.style.left)+1+'px';
+}
+
+function moveRight() {
+   foo.style.left = parseInt(foo.style.left)-1+'px';
+}
+
+function moveUp() {
+   foo.style.top = parseInt(foo.style.top)-1+'px';
+}
+
+function moveDown() {
+  foo.style.top = parseInt(foo.style.top)+1+'px';
 }
 
 function init() {
