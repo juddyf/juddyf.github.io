@@ -18,18 +18,27 @@ h1, h2 {
  top:8em;
 }
 
+#fooObject2 {
+ position:absolute;
+ left:0px;
+ top:400px;
+}
+
 </style>
 <script type="text/javascript">
 
-var foo = null; // object
+var foo = null;
+var foo2 = null;// object
 
 function doMove() {
   foo.style.left = parseInt(foo.style.left)+1+'px';
+  foo2.style.left = parseInt(foo2.style.left)+1+'px';
   setTimeout(doMove,20); // call doMove in 20msec
 }
 
 function init() {
   foo = document.getElementById('fooObject'); // get the "foo" object
+  foo2 = document.getElementById('fooObject2');
   foo.style.left = '0px'; // set its initial position to 0px
   doMove(); // start animating
 }
