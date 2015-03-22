@@ -53,7 +53,7 @@ function moveLeft() {
 function moveRight() {
    foo.style.left = parseInt(foo.style.left)-1+'px';
    
-    if (parseInt(foo.style.right) > 0) {
+    if (parseInt(foo.style.left) < 800) {
     setTimeout(moveRight,20);
    } else {
      doMove();
@@ -77,7 +77,7 @@ function moveDown() {
   foo.style.top = parseInt(foo.style.top)+1+'px';
   
 
-  if (parseInt(foo.style.bottom) > 0) {
+  if (parseInt(foo.style.top) < 800) {
     setTimeout(moveDown,20);
    } else {
      doMove();
