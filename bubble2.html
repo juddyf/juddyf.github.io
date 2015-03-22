@@ -41,16 +41,16 @@ function doMove() {
      
      if (direction == 0) {
          foo.style.left = parseInt(foo.style.left)+1+'px';
-         foo2.style.left = parseInt(foo.style.left)-1+'px';
+         foo2.style.left = parseInt(foo2.style.left)-1+'px';
      } else if (direction == 1) {
          foo.style.top = parseInt(foo.style.top)+1+'px';
-         foo2.style.left = parseInt(foo.style.left)+1+'px';
+         foo2.style.left = parseInt(foo2.style.left)+1+'px';
      } else if (direction == 2) {
          foo.style.left = parseInt(foo.style.left)-1+'px';
-         foo2.style.top = parseInt(foo.style.top)+1+'px';
+         foo2.style.top = parseInt(foo2.style.top)+1+'px';
      } else {
          foo.style.top = parseInt(foo.style.top)-1+'px';
-         foo2.style.top = parseInt(foo.style.top)-1+'px';
+         foo2.style.top = parseInt(foo2.style.top)-1+'px';
      }
      
      setTimeout(doMove,20);
