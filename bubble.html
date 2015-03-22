@@ -25,18 +25,20 @@ var foo = null; // object
 function doMove() {
   var direction = Math.floor(Math.random() * 4);
  
-  if (direction == 0) {
+  if (direction == 0 && parseInt(foo.style.left) != 0) {
        moveLeft();
        setTimeout(doMove,50);
-  } else if (direction == 1) {
+  } else if (direction == 1 && parseInt(foo.style.bottom) != 0) {
        moveDown();
        setTimeout(doMove,50);
-  } else if (direction == 2) {
+  } else if (direction == 2 && parseInt(foo.style.top) != 0) {
        moveUp();
        setTimeout(doMove,50);
-  } else {
+  } else if (direction == 3 && parseInt(foo.style.right) != 0) {
        moveRight();
        setTimeout(doMove,50);
+  } else {
+       setTimeout(doMove, 20);
   }
 }
 
