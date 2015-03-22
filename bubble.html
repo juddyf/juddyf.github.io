@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>HELP</title>
+<style type="text/css">
+
+body {
+ font:76% normal verdana,arial,tahoma;
+}
+
+h1, h2 {
+ font-size:1em;
+}
+
+#fooObject {
+ /* simple box */
+ position:absolute;
+ left:50px;
+ top:50px;
+
+</style>
+<script type="text/javascript">
+
+var foo = null; // object
+
+function doMove() {
+  var direction = Math.floor(Math.random() * 4);
+ 
+  if (direction == 0) {
+       moveLeft();
+  } else if (direction == 1) {
+       moveDown();
+  } else if (direction == 2) {
+       moveUp();
+  } else if (direction == 3) {
+       moveRight();
+  } else {
+       setTimeout(doMove, 20);
+  }
+}
+
+
+function moveLeft() {
+   foo.style.left = parseInt(foo.style.left)+1+'px';
+   
+   if (parseInt(foo.style.left) > 0) {
+    setTimeout(moveLeft,20);
+   }
+   
+   doMove();
+}
+
+function moveRight() {
+   foo.style.left = parseInt(foo.style.left)-1+'px';
+   
+   if (parseInt(foo.style.right) > 0) {
+    setTimeout(moveRight,20);
+   }
+   
+   doMove();
+}
+
+function moveUp() {
+   foo.style.top = parseInt(foo.style.top)-1+'px';
+   
+   if (parseInt(foo.style.top) > 0) {
+    setTimeout(moveRight,20);
+   }
+   
+   doMove();
+}
+
+function moveDown() {
+  foo.style.top = parseInt(foo.style.top)+1+'px';
+  
+  if (parseInt(foo.style.bottom) > 0) {
+    setTimeout(moveRight,20);
+   }
+   
+   doMove();
+}
+
+function init() {
+  foo = document.getElementById('fooObject'); // get the "foo" object
+  foo.style.left = '50px'; // set its initial position to 0px
+  foo.style.top = '50px'
+  doMove(); // start animating
+}
+
+
+window.onload = init;
+
+</script>
+</head>
+
+<body>
+
+<div id="fooObject">
+ <img src="http://i62.tinypic.com/dfgbx4.png" width = "90" height = "90">
+</div>
+
+</body>
+</html>
