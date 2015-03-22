@@ -22,18 +22,25 @@ h1, h2 {
 
 var foo = null; // object
 
-function doMove() {
-  var direction = Math.floor(Math.random() * 10);
-  foo.style.top = parseInt(foo.style.top)-1+'px';
+function doMove(int direction) {
+  if (direction = 0) {
+     foo.style.left = parseInt(foo.style.left)+1+'px';
+  } else if (direction = 1) {
+     foo.style.top = parseInt(foo.style.top)+1+'px';
+  } else if (direction = 2) {
+     foo.style.top = parseInt(foo.style.top)-1+'px';
+  } else {
+     foo.style.left = parseInt(foo.style.left)-1+'px';
+  }
   
-  setTimeout(doMove,20); // call doMove in 20msec
+  setTimeout(doMove(Math.floor(Math.random() * 4)),20); // call doMove in 20msec
 }
 
 function init() {
   foo = document.getElementById('fooObject'); // get the "foo" object
   foo.style.left = '100px'; // set its initial position to 0px
   foo.style.top = '100px'
-  doMove(); // start animating
+  doMove(Math.floor(Math.random() * 4)); // start animating
 }
 
 
