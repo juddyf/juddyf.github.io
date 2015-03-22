@@ -14,8 +14,13 @@ var worries = [];
 var current = 0, i = 0, i2 = 0;
 while (addmore === "yes") { //noprotect
   var input = prompt("Give me a worry of yours:");
-  var makecircle = canvas.circle(80 + 150*i, 80 + 150*i2, 70);
-  makecircle.attr("fill", "#B8D7F1");
+  var image = new Image;
+  image.src = "http://i.imgur.com/UbD4sbZ.png";
+  image.height = 150; 
+  image.width = 150;
+  image.style.top=80 + (150*i);
+  image.style.right=80 + (150*i2);
+  document.body.appendChild(image);
   var maketext = canvas.text(80 + 150*i, 80 + 150*i2, input);
   current++;
   i++;
@@ -23,11 +28,12 @@ while (addmore === "yes") { //noprotect
     i = 0;
     i2++;
   }
-  addmore = prompt("Do you have another worry? ('yes' or no)");
-  if (current > 8) {
+  if (current < 9) {
+    addmore = prompt("Do you have another worry? ('yes' if so)");
+  } else {
     addmore = "no";
   }
-  makecircle.click(pop);
+  image.click(pop);
 }
 function diamond() {
   var x = Math.floor((Math.random() * 400) + 1);
@@ -36,7 +42,8 @@ function diamond() {
   this.animate(animateCircle);
 }
 function pop() {
-  this.remove();
+      var imagetwo = document.getElementById('image');
+        imagetwo.src = "http://i.imgur.com/f8deEVF.gif";
 }
 </script>
  
