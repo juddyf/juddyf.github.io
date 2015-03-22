@@ -14,8 +14,8 @@ h1, h2 {
 
 #fooObject {
  position:absolute;
- left:0px;
- top:8em;
+ left:200px;
+ top: 200px;
 }
 
 </style>
@@ -47,7 +47,8 @@ function doMove() {
 
 function init() {
   foo = document.getElementById('fooObject'); // get the "foo" object
-  foo.style.left = '0px'; // set its initial position to 0px
+  foo.style.left = '200px'; // set its initial position to 0px
+  foo.style.top = '200px';
   doMove(); // start animating
 }
 
