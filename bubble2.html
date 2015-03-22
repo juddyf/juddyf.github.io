@@ -40,6 +40,12 @@ function pop() {
     }
 }
 
+function pop2() {
+    if (document.getElementById('image2').src !== "http://i.imgur.com/f8deEVF.gif") {
+      document.getElementById('image2').src = "http://i.imgur.com/f8deEVF.gif";
+    }
+}
+
 window.onload = init;
 
 </script>
@@ -51,8 +57,8 @@ window.onload = init;
  <img id = "image" onclick="pop()" src="http://i.imgur.com/UbD4sbZ.png" width="180" height="180">
 </div> 
 
-<div id="fooObject" style = "top: 200px;">
- <img id = "image" onclick="pop()" src="http://i.imgur.com/UbD4sbZ.png" width="180" height="180">
+<div id="fooObject2" style = "top: 200px;">
+ <img id = "image2" onclick="pop2()" src="http://i.imgur.com/UbD4sbZ.png" width="180" height="180">
 </div> 
 
 </body>
