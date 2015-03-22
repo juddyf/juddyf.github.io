@@ -1,0 +1,239 @@
+
+<!-- html commenting style :) -->
+
+<html>
+  <head>
+    <title> afternoon teatime </title>
+    
+    <style> 
+    body {
+       padding: 0px;
+       margin: 0px;
+    }
+    
+    a, a:visited, a:active {
+        color: #81a288;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: aad5b3
+    }
+    
+    #nav1 { 
+        position: fixed;
+        left: 260px; 
+        top: 15%;
+        -o-transition: 1s;
+       -ms-transition:1s;
+       -moz-transition:1s;
+       -webkit-transition:1s;
+    }
+    
+    #nav2 {
+        position: fixed;
+        left: 260px; 
+        top: 45%;
+        -o-transition: 1s;
+       -ms-transition:1s;
+       -moz-transition:1s;
+       -webkit-transition:1s;
+    }
+    
+    #nav3 {
+        position: fixed;
+        left: 260px; 
+        top: 75%;
+        -o-transition: 1s;
+       -ms-transition:1s;
+       -moz-transition:1s;
+       -webkit-transition:1s;
+    } 
+    
+    #nav1:hover, #nav2:hover, #nav3:hover {
+        opacity: 0;
+        filter: alpha(opacity = 0);
+    }
+    
+     #navtext1 { 
+        position: fixed;
+        left: 260px; 
+        width: 90px;
+        text-align: center;
+        top: 15%;
+    }
+    
+    #navtext2 {
+        position: fixed;
+        left: 260px;
+        width: 90px;
+        text-align: center;
+        top: 45%;
+    }
+    
+    #navtext3 {
+        position: fixed;
+        left: 260px; 
+        width: 90px;
+        text-align: center;
+        top: 75%;
+    } 
+    
+    #sidebar {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        background: #e5daf1; 
+        color: #6e6873; 
+        width: 300px;
+        height: 100%;
+        border-right: 10px solid #30364a;
+        text-align: center;
+    }
+    
+    #image {
+       position: fixed;
+       left: 310px;
+       opacity: .50;
+       filter: alpha(opacity=50);
+       -o-transition: 1s;
+       -ms-transition:1s;
+       -moz-transition:1s;
+       -webkit-transition:1s;
+    }
+    
+    #image:hover {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+
+    #overlay {
+        position: absolute;
+        left: 500px;
+        top: 75px;
+        border: 4px solid #E6E6E6;
+        width: 50%;
+        text-align: center;
+        background: white;
+        opacity: 0.70;
+    }
+
+    </style> 
+    
+  </head>
+  
+  <body style = "background-color: #e5daf1;">
+    <div id = "image">
+        <img src="http://i61.tinypic.com/152l66b.png" height = "100%" width = "100%">
+    </div>
+  
+    <div id = "overlay">
+        <h2>
+            <a title="click me" type="a" onclick="if(document.getElementById('hidden').style.display=='none') {document.getElementById('hidden').style.display=''}else{document.getElementById('hidden').style.display='none'}">you are strong</a>
+            </br>
+
+            <div id="hidden" style="display:none">
+                </br>
+                <a title="click me" type="a" onclick="if(document.getElementById('no').style.display=='none') {document.getElementById('no').style.display=''}else{document.getElementById('no').style.display='none'}">you are important</a>
+            </div>
+
+            <div id="no" style="display:none">
+                </br>
+                <a title="click me" type="a" onclick="if(document.getElementById('why').style.display=='none') {document.getElementById('why').style.display=''}else{document.getElementById('why').style.display='none'}">you matter</a>
+            </div>
+
+            <div id="why" style="display:none">
+                </br>
+                <a title="click me" type="a" onclick="if(document.getElementById('no2').style.display=='none') {document.getElementById('no2').style.display=''}else{document.getElementById('no2').style.display='none'}">someone loves you</a>
+            </div>
+
+            <div id="no2" style="display:none">
+                </br>
+                <a title="click me" type="a" onclick="if(document.getElementById('one').style.display=='none') {document.getElementById('one').style.display=''}else{document.getElementById('one').style.display='none'}">your feelings are valid</a>
+            </div>
+
+            <div id="one" style="display:none">
+                </br>
+                <a title="click me" type="a" onclick="if(document.getElementById('two').style.display=='none') {document.getElementById('two').style.display=''}else{document.getElementById('two').style.display='none'}">today is a new day</a>
+            </div>
+
+            <div id="two" style="display:none">
+                </br>
+                <a title="click me" type="a" onclick="if(document.getElementById('three').style.display=='none') {document.getElementById('three').style.display=''}else{document.getElementById('three').style.display='none'}">get up and dance</a>
+            </div>
+
+            <div id="three" style="display:none">
+                </br>
+                <a title="click me" type="a" onclick="if(document.getElementById('four').style.display=='none') {document.getElementById('four').style.display=''}else{document.getElementById('four').style.display='none'}">you can do it!</a>
+            </div>
+
+            <div id="four" style="display:none">
+                </br>
+                <a title="click me" type="a" onclick="if(document.getElementById('five').style.display=='none') {document.getElementById('five').style.display=''}else{document.getElementById('five').style.display='none'}">go out and stretch</a>
+            </div>
+
+            <div id="five" style="display:none">
+                </br>
+                <font color=#81a288> it's gonna be a great day! </font>
+            </div>
+
+            </br>
+        </h2>
+    </div>
+
+    <div id = "sidebar">
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        <h2>
+            <font face = "verdana"> <a href = "/index.html"> afternoon </br>teatime </a> </font>
+        </h2>
+    </div>
+    
+    <div id = "navtext1"> 
+        <a href = "/anxiety.html"><img src = "http://i62.tinypic.com/dfgbx4.png" width = "90" height = "90"></a>
+    </div>
+    
+    <div id = "navtext2">
+        <a href = "/suicide.html"><img src = "http://i59.tinypic.com/epenp1.png" width = "90" height = "90"></a>
+    </div>
+    
+    <div id = "navtext3">
+        <a href = "/depression.html"><img src = "http://i59.tinypic.com/ih1tt5.png" width = "90" height = "90"></a>
+    </div>
+    
+    <div id = "nav1"> 
+        <a href = "/anxiety.html"> <img src = "http://i57.tinypic.com/flkeu9.png" width = "90" height = "90"> </a>
+    </div>
+    
+    <div id = "nav2">
+        <a href = "/suicide.html"> <img src = "http://i61.tinypic.com/2ry5wmx.png" width = "90" height = "90"> </a>
+    </div>
+    
+    <div id = "nav3">
+        <a href = "/depression.html"> <img src = "http://i57.tinypic.com/and380.png" width = "90" height = "90"> </a>
+    </div>
+    
+    <footer>
+  
+    </footer>
+  </body>
+  
+</html>
