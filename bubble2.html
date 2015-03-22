@@ -34,7 +34,7 @@ var anxdep = Math.floor(Math.random() * 2);
 function doMove() {
   if (anxdep == 0) {
      foo.style.left = parseInt(foo.style.left)+1+'px';
-     foo2.style.left = parseInt(foo.style.left)-1+'px';
+     foo2.style.left = parseInt(foo2.style.left)-1+'px';
      setTimeout(doMove,20); // call doMove in 20msec
   } else {
      var direction = Math.floor(Math.random() * 4) ;
@@ -68,13 +68,13 @@ function init() {
 }
 
 function pop() {
-    if (document.getElementById('image').src !== "http://i.imgur.com/f8deEVF.gif") {
+    if (document.getElementById('image').src != "http://i.imgur.com/f8deEVF.gif") {
       document.getElementById('image').src = "http://i.imgur.com/f8deEVF.gif";
     }
 }
 
 function pop2() {
-    if (document.getElementById('image2').src !== "http://i.imgur.com/f8deEVF.gif") {
+    if (document.getElementById('image2').src != "http://i.imgur.com/f8deEVF.gif") {
       document.getElementById('image2').src = "http://i.imgur.com/f8deEVF.gif";
     }
 }
