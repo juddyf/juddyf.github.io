@@ -12,6 +12,12 @@ h1, h2 {
  font-size:1em;
 }
 
+#fooObject {
+ position:absolute;
+ left:0px;
+ top:8em;
+}
+
 </style>
 <script type="text/javascript">
 
@@ -29,8 +35,8 @@ function init() {
 }
 
 function pop() {
-    if (document.getElementById('myImage').src !== "http://i.imgur.com/f8deEVF.gif") {
-      document.getElementById('myImage').src = "http://i.imgur.com/f8deEVF.gif";
+    if (document.getElementById('image').src !== "http://i.imgur.com/f8deEVF.gif") {
+      document.getElementById('image').src = "http://i.imgur.com/f8deEVF.gif";
     }
 }
 
@@ -41,7 +47,9 @@ window.onload = init;
 
 <body>
 
-<img id="fooObject" onclick="pop()" src="http://i.imgur.com/UbD4sbZ.png" width="180" height="180">
+<div id="fooObject">
+ <img id = "image" onclick="pop()" src="http://i.imgur.com/UbD4sbZ.png" width="180" height="180">
+</div> 
 
 </body>
 </html>
