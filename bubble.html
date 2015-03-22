@@ -14,8 +14,8 @@ h1, h2 {
 #fooObject {
  /* simple box */
  position:absolute;
- left:0px;
- top:0px;
+ left:100px;
+ top:100px;
 
 </style>
 <script type="text/javascript">
@@ -25,9 +25,9 @@ var foo = null; // object
 function doMove() {
   var direction = Math.floor(Math.random() * 4);
   if (direction = 0) {
-     foo.style.left = parseInt(foo.style.left)-1+'px';
-  } else if (direction = 1) {
      foo.style.left = parseInt(foo.style.left)+1+'px';
+  } else if (direction = 1) {
+     foo.style.left = parseInt(foo.style.left)-1+'px';
   } else if (direction = 2) {
      foo.style.top = parseInt(foo.style.left)+1+'px';
   } else {
@@ -39,8 +39,8 @@ function doMove() {
 
 function init() {
   foo = document.getElementById('fooObject'); // get the "foo" object
-  foo.style.left = '0px'; // set its initial position to 0px
-  foo.style.top = '0px'
+  foo.style.left = '100px'; // set its initial position to 0px
+  foo.style.top = '100px'
   doMove(); // start animating
 }
 
