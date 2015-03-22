@@ -24,7 +24,7 @@ var foo = null; // object
 
 function doMove() {
   var direction = Math.floor(Math.random() * 10);
-  foo.style.top = parseInt(foo.style.left)-1+'px';
+  foo.style.top = parseInt(foo.style.top)-1+'px';
   
   setTimeout(doMove,20); // call doMove in 20msec
 }
