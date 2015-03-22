@@ -62,14 +62,23 @@ function init() {
   doMove(); // start animating
 }
 function pop() {
-    if (document.getElementById('image').src != "http://i.imgur.com/f8deEVF.gif") {
-      document.getElementById('image').src = "http://i.imgur.com/f8deEVF.gif";
-    }
+   document.getElementById('image').src = "http://i.imgur.com/f8deEVF.gif";
+   
+   setTimeout(remove,300);
 }
 function pop2() {
-    if (document.getElementById('image2').src != "http://i.imgur.com/f8deEVF.gif") {
-      document.getElementById('image2').src = "http://i.imgur.com/f8deEVF.gif";
-    }
+
+   document.getElementById('image2').src = "http://i.imgur.com/f8deEVF.gif";
+    
+	setTimeout(remove2, 300);
+}
+
+function remove() {
+	image.parentNode.removeChild(image);
+}
+
+function remove2() {
+	image2.parentNode.removeChild(image2);
 }
 window.onload = init;
 </script>
@@ -87,3 +96,4 @@ window.onload = init;
 
 </body>
 </html>
+
