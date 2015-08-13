@@ -13,7 +13,7 @@ body {
   z-index: 555;
   top: 0px;
   left: 0px;
-  padding-top: 25px;
+  padding-top: 5vh;
 }
 
 .nav a:link, .nav a:active, .nav a:visited {
