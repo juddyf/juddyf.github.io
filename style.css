@@ -3,3 +3,10 @@ body {
   font-family: "helvetica" sans-serif arial;
   color: #ffffff;
 }
+
+.nav {
+  position:fixed;
+  left: 50%;
+  margin-left: -300px;
+  width: 600px;
+}
