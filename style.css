@@ -55,6 +55,7 @@ body {
   top: 768px;
   height: 768px;
   z-index: 333;
+  position: absolute;
 }
 
 .classes {
