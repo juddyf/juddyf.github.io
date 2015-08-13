@@ -10,7 +10,9 @@ body {
   background-color: #231f20;
   height: 100px;
   text-align: center;  
-  z-index: 999;
+  z-index: 555;
+  top: 0px;
+  left: 0px;
 }
 
 .nav a:link, .nav a:active, .nav a:visited {
@@ -18,11 +20,13 @@ body {
   margin-left: 20px;
   color: #231f20;
   text-decoration: none;
+   z-index: 999;
 }
 
 .nav a:hover {
   text-decoration: underline;
   color: #452142;
+   z-index: 999;
 }
 
 .cover {
