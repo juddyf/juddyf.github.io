@@ -8,12 +8,12 @@ body {
   position:fixed;
   width: 100%;
   background-color: #f1ddcc;
-  height: 10vh;
+  height: 50px;
   text-align: center;  
   z-index: 555;
   top: 0px;
   left: 0px;
-  padding-top: 5vh;
+  padding-top: 25px;
 }
 
 .nav a:link, .nav a:active, .nav a:visited {
@@ -37,10 +37,10 @@ body {
   background: -moz-linear-gradient(#f1dcca, #fff); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#f1dcca, #fff); /* Standard syntax */
   text-align:center;
-  height: 90vh;
+  height: 718px;
   width: 100%;
   position: absolute;
-  top: 10vh;
+  top: 50px;
   left: 0px;
 }
 
