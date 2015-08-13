@@ -9,7 +9,9 @@ body {
   left: 50%;
   margin-left: -300px;
   width: 600px;
-  background-color: #;
+  background-color: #231f20;
+  height: 100px;
+  text-align: center;
 }
 
 .nav a:link, .nav a:active, .nav a:visited {
