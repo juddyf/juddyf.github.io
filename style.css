@@ -1,7 +1,7 @@
 body {
-  background-color: #231f20;
+  background-color: #ffffff;
   font-family: "helvetica" sans-serif arial;
-  color: #ffffff;
+  color: #231f20;
 }
 
 .nav {
@@ -52,10 +52,10 @@ body {
 }
 
 .about {
-  top: 768px;
+  margin-top: 768px;
   height: 768px;
   z-index: 333;
-  position: absolute;
+  padding-top: 300px;
 }
 
 .classes {
