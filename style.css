@@ -13,11 +13,11 @@ body {
   z-index: 555;
   top: 0px;
   left: 0px;
+  padding-top: 40px;
 }
 
 .nav a:link, .nav a:active, .nav a:visited {
   font-size: 20px;
-  padding-top: 40px;
   margin-left: 20px;
   color: #231f20;
   text-decoration: none;
