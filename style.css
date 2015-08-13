@@ -15,8 +15,10 @@ body {
 .nav a {
   font-size: 20px;
   width: 100px;
+  color: #f1dcca;
 }
 
 .nav a:hover {
   text-decoration: underline;
+  color: #b3a397;
 }
