@@ -54,23 +54,25 @@ body {
 .about {
   top: 768px;
   height: 768px;
+  z-index: 333;
 }
 
 .classes {
-  
+  z-index:332;
 }
 
 .parties {
-  
+  z-index: 331;
 }
 
 .events {
+  z-index: 330;
 }
 
 .people {
-  
+  z-index: 329;
 }
 
 .contact {
-  
+  z-index: 328;
 }
