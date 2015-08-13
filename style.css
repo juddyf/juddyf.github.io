@@ -14,8 +14,9 @@ body {
 
 .nav a {
   font-size: 20px;
-  width: 100px;
+  margin-left: 20px;
   color: #f1dcca;
+  text-decoration: none;
 }
 
 .nav a:hover {
