@@ -37,7 +37,7 @@ body {
   background: -moz-linear-gradient(#f1dcca, #fff); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#f1dcca, #fff); /* Standard syntax */
   text-align:center;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   position: absolute;
   top: 50px;
@@ -45,5 +45,5 @@ body {
 }
 
 .cover .logo {
-  margin-top: 100px;
+  margin-top: 75px;
 }
