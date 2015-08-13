@@ -17,7 +17,7 @@ body {
 
 .nav a:link, .nav a:active, .nav a:visited {
   font-size: 20px;
-  margin-top: 40px;
+  padding-top: 40px;
   margin-left: 20px;
   color: #231f20;
   text-decoration: none;
