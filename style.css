@@ -11,7 +11,7 @@ body {
   width: 600px;
   background-color: #231f20;
   height: 100px;
-  text-align: center;
+  text-align: middle;
 }
 
 .nav a:link, .nav a:active, .nav a:visited {
