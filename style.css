@@ -15,14 +15,14 @@ body {
 .nav a:link, .nav a:active, .nav a:visited {
   font-size: 20px;
   margin-left: 20px;
-  color: #f1dcca;
+  color: #231f20;
   text-decoration: none;
   z-index: 999;
 }
 
 .nav a:hover {
   text-decoration: underline;
-  color: #b3a397;
+  color: #452142;
 }
 
 .cover {
@@ -40,5 +40,8 @@ body {
 
 .cover .logo {
   position:absolute;
-  top: 100px;
+  top: 50%;
+  margin-top: 262px;
+  left: 50%;
+  margin-left: 513px;
 }
