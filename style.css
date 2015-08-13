@@ -4,7 +4,7 @@ body {
   color: #ffffff;
 }
 
-/*.nav {
+.nav {
   position:fixed;
   width: 100%;
   background-color: #f1ddcc;
@@ -28,7 +28,7 @@ body {
   text-decoration: underline;
   color: #452142;
    z-index: 999;
-}*/
+}
 
 .cover {
   z-index: 410;
