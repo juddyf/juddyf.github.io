@@ -19,6 +19,7 @@ body {
   margin-left: 20px;
   color: #f1dcca;
   text-decoration: none;
+  z-index: 999;
 }
 
 .nav a:hover {
