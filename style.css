@@ -80,10 +80,14 @@ body {
 
 .jumbotron {
     margin-bottom: 0px;
-    background-image: url('https://scontent-iad3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/10711049_377166575791892_763402721384054315_n.jpg?oh=c3f322165fa76ed5cdb9d1194177c542&oe=5678898A');
+    background-image: url('http://i59.tinypic.com/2mb6kp.png');
+    background-color: #70256d;
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.jumbotron:hover {
+  
 }
