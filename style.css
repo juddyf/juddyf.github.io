@@ -9,6 +9,10 @@ body {
   padding: 15px 10px;
 }
 
+.centered {
+  text-align:center;
+}
+
 .nav {
   position:fixed;
   width: 100%;
