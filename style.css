@@ -2,7 +2,7 @@ body {
   background-color: #ffffff;
   font-family: "helvetica" sans-serif arial;
   color: #231f20;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .nav {
@@ -21,7 +21,7 @@ body {
 }
 
 .nav a:link, .nav a:active, .nav a:visited {
-  font-size: 20px;
+  font-size: 24px;
   margin-left: 20px;
   color: #231f20;
   text-decoration: none;
