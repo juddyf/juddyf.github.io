@@ -89,11 +89,6 @@ body {
     text-align: center;
 }
 
-.jumbotron:hover {
-  opacity: .7;
-  filter: alpha(opacity = 70);
-}
-
 .in-jumbo {
   padding-top: 50px;
   padding-bottom: 50px;
