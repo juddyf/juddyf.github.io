@@ -56,6 +56,7 @@ body {
   height: 768px;
   z-index: 333;
   padding-top: 100px;
+  text-align: center;
 }
 
 .classes {
