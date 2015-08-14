@@ -96,6 +96,8 @@ body {
     padding: 75 30;
 }
 
+/* Flaired edges, by Tomas Theunissen */
+
 hr.style-seven {
     height: 30px;
     border-style: solid;
@@ -104,7 +106,7 @@ hr.style-seven {
     border-radius: 20px;
     color: #92278f;
 }
-hr.style-seven:before { /* Not really supposed to work, but does */
+hr.style-seven:before { 
     display: block;
     content: "";
     height: 30px;
