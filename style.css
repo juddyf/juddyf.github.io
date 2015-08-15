@@ -57,7 +57,7 @@ body {
   position: absolute;
   top: 50px;
   left: 0px;
-  min-height: 768px;
+  min-height: 100px;
 }
 
 .logo {
