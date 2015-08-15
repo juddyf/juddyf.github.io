@@ -68,26 +68,6 @@ body {
   text-align: center;
 }
 
-.classes {
-  z-index:332;
-}
-
-.parties {
-  z-index: 331;
-}
-
-.events {
-  z-index: 330;
-}
-
-.people {
-  z-index: 329;
-}
-
-.contact {
-  z-index: 328;
-}
-
 .jumbotron {
     margin-bottom: 0px;
     background-image: url('http://i59.tinypic.com/2mb6kp.png');
