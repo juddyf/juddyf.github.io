@@ -3,7 +3,6 @@ $( document ).ready(function() {
     var windowWidth = $(window).width();
     
     $("#cover").css("min-height", windowHeight);
-    });
 
     $(window).resize(function () {
     	windowHeight = $(window).height();
