@@ -4,7 +4,7 @@ $( document ).ready(function() {
     var windowWidth = $(window).width();
     
     $("#cover").css("min-height", windowHeight);
-    $("about").css("top", aboutFromTop);
+    
 
     $(window).resize(function () {
     	windowHeight = $(window).height()-50;
