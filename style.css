@@ -42,7 +42,7 @@ body {
    z-index: 999;
 }
 
-.cover {
+#cover {
   z-index: 410;
   background: -webkit-linear-gradient(#f1dcca, #fff); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#f1dcca, #fff); /* For Opera 11.1 to 12.0 */
