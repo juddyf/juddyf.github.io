@@ -10,6 +10,7 @@ $( document ).ready(function() {
     if (windowWidth > 905) {
         $("#logo").css("left", leftWidth);
     } else {
+        $("#logo").css("left", 0);
         $("#logo").css("width", windowWidth);
     }
 
@@ -26,6 +27,7 @@ $( document ).ready(function() {
             $("#logo").css("left", leftWidth);
         } else {
             $("#logo").css("width", windowWidth);
+            $("#logo").css("left", 0);
         }
     });
 });
