@@ -85,3 +85,9 @@ body {
     padding: 75 30;
     border-radius: 25px;
 }
+
+.top-image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
