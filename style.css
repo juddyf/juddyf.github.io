@@ -59,12 +59,16 @@ body {
   left: 0px;
   min-height: 250px;
   padding-top: 5%;
-  padding-left: auto;
-  padding-right: auto;
 }
 
-.logo {
+#logo {
   width: 905px;
+}
+
+@media screen and (max-width: 905px) {
+  #logo {
+    left: 0px;
+  }
 }
 
 #about {
