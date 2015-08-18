@@ -88,6 +88,6 @@ body {
 
 .top-image {
   position: absolute;
-  top: 8%;
-  left: 20%;
+  top: 0px;
+  left: 0px;
 }
