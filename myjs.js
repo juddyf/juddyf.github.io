@@ -4,7 +4,7 @@ $( document ).ready(function() {
     var windowWidth = $(window).width();
     
     $("#about").css("margin-top", windowHeight);
-    $("#cover").css("margin-top", coverHeight);
+    $("#cover").css("max-height", coverHeight);
 
     $(window).resize(function () {
     	windowHeight = $(window).height()+50;
