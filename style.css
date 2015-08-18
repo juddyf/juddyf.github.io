@@ -58,10 +58,11 @@ body {
   top: 50px;
   left: 0px;
   min-height: 250px;
-  padding-top: 5%;
 }
 
 #logo {
+  position:absolute;
+  top: 5%;
   width: 905px;
 }
 
