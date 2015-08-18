@@ -9,6 +9,8 @@ $( document ).ready(function() {
     
     if (windowWidth > 905) {
         $("#logo").css("left", leftWidth);
+    } else {
+        $("#logo").css("width", windowWidth);
     }
 
     $(window).resize(function () {
