@@ -63,7 +63,8 @@ body {
 
 .logo {
   width: 905px;
-  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #about {
