@@ -11,7 +11,7 @@ $( document ).ready(function() {
     	coverHeight = $(window).height() - 50;
     	windowWidth = $(window).width();
     	
-    	$("#cover").css("margin-top", coverHeight);
+    	$("#cover").css("max-height", coverHeight);
     	$("#about").css("margin-top", windowHeight);
     });
 });
