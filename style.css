@@ -1,3 +1,11 @@
+a, a:active, a:visited {
+  color: #300a07;
+}
+
+a:hover {
+  color： #1f0604；
+}
+
 body {
   background-color: #ffffff;
   font-family: "helvetica" sans-serif arial;
@@ -20,7 +28,7 @@ body {
 .nav {
   position:fixed;
   width: 100%;
-  background-color: #f1ddcc;
+  background-color: #f5b6d1;
   height: 50px;
   z-index: 555;
   top: 0px;
@@ -35,7 +43,7 @@ body {
 .nav a:link, .nav a:active, .nav a:visited {
   font-size: 24px;
   margin-left: 20px;
-  color: #231f20;
+  color: #;
   text-decoration: none;
    z-index: 999;
 }
@@ -48,10 +56,6 @@ body {
 
 #cover {
   z-index: 410;
-  background: -webkit-linear-gradient(#f1dcca, #fff); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#f1dcca, #fff); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#f1dcca, #fff); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#f1dcca, #fff); /* Standard syntax */
   text-align:center;
   width: 100%;
   position: absolute;
