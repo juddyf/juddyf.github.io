@@ -54,14 +54,10 @@ body {
    z-index: 999;
 }
 
-#cover {
-  z-index: 410;
-  text-align:center;
-  width: 100%;
-  position: absolute;
-  top: 50px;
-  left: 0px;
-  min-height: 250px;
+#face {
+  position: fixed;
+  margin-left: 100px;
+  margin-top: 300px;
 }
 
 #logo {
