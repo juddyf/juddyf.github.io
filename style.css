@@ -43,14 +43,14 @@ body {
 .nav a:link, .nav a:active, .nav a:visited {
   font-size: 24px;
   margin-left: 20px;
-  color: #;
+  color: #300a07;
   text-decoration: none;
    z-index: 999;
 }
 
 .nav a:hover {
   text-decoration: underline;
-  color: #452142;
+  color: #1f0604;
    z-index: 999;
 }
 
