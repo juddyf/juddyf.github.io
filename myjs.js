@@ -3,6 +3,9 @@ $( document ).ready(function() {
     var coverHeight = $(window).height() - 50;
     var windowWidth = $(window).width();
     var leftWidth = ($(window).width() - 905)/2;
+    var windowMid = windowHeight / 2 - 100;
+    
+    $("face").css("margin-top", windowMid);
     
     $("#about").css("margin-top", windowHeight);
     $("#cover").css("max-height", coverHeight);
