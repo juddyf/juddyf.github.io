@@ -7,7 +7,9 @@ a:hover {
 }
 
 body {
-  background-color: #ffffff;
+  background: #ED4264; /* fallback for old browsers */
+  background: -webkit-linear-gradient(#ED4264 , #FFEDBC); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(#ED4264 , #FFEDBC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: "helvetica" sans-serif arial;
   color: #231f20;
   font-size: 20px;
