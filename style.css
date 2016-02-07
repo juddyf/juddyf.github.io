@@ -59,8 +59,11 @@ body {
 }
 
 #face {
-  position: fixed;
-  margin-left: 100px;
+  padding: 10px;
+  background-color: #000;
+  opacity: 0.6; 
+  filter: alpha(opacity=60);
+  color: #fff;
 }
 
 #logo {
